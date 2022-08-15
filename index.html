@@ -47,16 +47,16 @@
     <div class="jumbotron jumbotron-image mt-5 mb-5 p-5 text-center">
         <div class="d-flex m-2">
             <div class="">
-                <img class="img " src="./img/11.png" alt="">
+                <img class="img" id="imgJumbo" src="./img/11.png" alt="">
                 <h1 class="display-4 font-weight-bold">Se la mejor versión de tí</h1>
                 <p class="lead mt-5 text-left">Entrena de forma inteligente, considerando tus tiempos y mejora de forma gráfica a nuestras herramientas de Inteligencia Artificial.</p>
                 <div class="form-group text-left">
-                  <input type="text" class="form-control m-1" id="nombre"  placeholder="Nombre completo">
-                  <input type="email" class="form-control m-1" id="email" aria-describedby="emailHelp" placeholder="Ingrese su email">
+                  <input type="text" class="form-control m-1" id="nombre"  placeholder="Nombre completo"  required>
+                  <input type="email" class="form-control m-1" id="email" aria-describedby="emailHelp" placeholder="Ingrese su email"  required>
                   <div class="form-group">
-                    <textarea class="form-control m-1" id="consulta" rows="2" placeholder="Ingresu su consulta"></textarea>
+                    <textarea class="form-control m-1" id="consulta" rows="2" placeholder="Ingresu su consulta"  required></textarea>
                   </div>
-                  <a class="btn btn-primary btn-lg " href="#" role="button">Ingresar</a>
+                  <a class="btn btn-primary btn-lg  " href="#" role="button">Ingresar</a>
                 </div>
               </div>
             
@@ -68,7 +68,7 @@
       <!-- Aca vienen lso productos y los servicios.. nuevamente deben ir linekados los planes -->
       <!-- Servicios.... detalles de los planes ofreccidos -->
       <article class="mt-5">
-        <h2 class="text-center mb-3">Nuestros Servicios</h2>
+        <h2 class="text-center m-5">Nuestros Servicios</h2>
         <div id="carouselExampleIndicators" class="carousel slide m-2" data-ride="carousel">
           <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -77,23 +77,23 @@
           </ol>
           <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img class="d-block w-100" src="./img/2.jpg" alt="First slide">
-                  <div class="carousel-caption d-none d-md-block">
+                  <img class="d-block w-100 mb-3" src="./img/3.jpg" alt="First slide">
+      
                       <h5>Clases Personalizadas Presenciales</h5>
-                      <p>Clases ajustadas a tus medidas y necesidades</p>
-                  </div>
+                      <p class="mb-2">Clases ajustadas a tus medidas y necesidades</p>
+
               </div>
               <div class="carousel-item">
-                  <img class="d-block w-100" src="./img/3.jpg" alt="Second slide">
-                  <div class="carousel-caption d-none d-md-block">
+                  <img class="d-block w-100  mb-3" src="./img/5.jpg" alt="Second slide">
+                 
                     <h5>Clases Remotas</h5>
-                    <p>Clases a distancia tanto personales como grupales.</p>
-                </div>
+                    <p class="mb-2">Clases a distancia tanto personales como grupales.</p>
+              
               </div>
               <div class="carousel-item">
-                  <img class="d-block w-100" src="./img/4.jpg" alt="Third slide">
+                  <img class="d-block w-100  mb-3" src="./img/2.jpg" alt="Third slide">
                   <h5>Asesoría completa</h5>
-                  <p>La alimetnación es crítica, te ayudamos con ello y con otros servicios también estéticos.</p>
+                  <p class="mb-2">La alimetnación es crítica, te ayudamos con ello y con otros servicios también estéticos.</p>
               </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -105,55 +105,100 @@
               <span class="sr-only">Next</span>
           </a>
       </div>
+
   </article>
       <!-- Adicionales.. sobre nosotros  -->
       <article class="mt-5">
-        <h2 class="text-center">Sobre Nosotros</h2>
+        <h2 class="text-center m-5">Sobre Nosotros</h2>
 
-        <div class="d-flex container">
+        <div class="d-flex container flex-column">
           <div class="">
             <h4>Profesionales certificados</h4>
             <p>Personal Trainer certificado, Masoterapeuta y Kinesiológos.</p>
             <p>Experiencia de años y búscamos profesionales con experiencia en todas las áreas. Artes Marciales, Aestetics, Body Building, Fútbol entre otros.</p>
           </div>
-          <div class="">
-            <img class="d-block w-100" src="./img/9.jpg" >
-          </div>
 
-        </div>
-
-        <div class="d-flex flex-column justify-content-center m-5 mb-5">
-            <div class="card m-3">
-              <h5 class="card-header">Inteligencia Artificial</h5>
-              <div class="card-body">
-                <h5 class="card-title">Algoritmos aplicados</h5>
-                <img src="..." class="card-img-top" alt="...">
-                <p class="card-text">Proponemos análisis de tus ejercicios mediante ténicas de realidad aumentada y mejoras prácticas.</p>
-
-              </div>
-            </div>
-
-            <div class="card m-3">
-              <h5 class="card-header">Evidencia Científica</h5>
-              <div class="card-body">
-                <h5 class="card-title">Siempre estudiando</h5>
-                <img src="..." class="card-img-top" alt="...">
-                <p class="card-text">Buscamos siempre las últimas tendendicas con evidencia para que logres tus objetivos efecientemente.</p>
-
-              </div>
-            </div>
-
-            <div class="card m-3">
-              <h5 class="card-header">Composición Corporal</h5>
-              <div class="card-body">
-                <h5 class="card-title">Reduce grasa</h5>
-                <img src="..." class="card-img-top" alt="...">
-                <p class="card-text">Te apollamos de forma integral mejorando una reducción de grasa y aumento de músculo sosteniblemente.</p>
-
-              </div>
-            </div>
           
-        </div>
+
+            <!-- 
+            Incluire un acordeon para detallar las ventajas comparativas -->
+
+
+
+
+
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed text-center" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Utilizamos inteligencia artificial aplicada a tu entrenamiento
+                    </button>
+                  </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    <div class="card m-3">
+                      
+                      <div class="card-body">
+                        <h5 class="card-title">Algoritmos aplicados</h5>
+                        <img src="./img/6.jpg" class="card-img-top" alt="">
+                        <p class="card-text text-justify">Proponemos análisis de tus ejercicios mediante técnicas de realidad aumentada.</p>
+        
+                      </div>
+                    </div>                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed text-center" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Utilizamos evidencia científica y no modas
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class="card-body">
+                    <div class="card m-3">
+
+                      <div class="card-body">
+                        <h5 class="card-title">Siempre estudiando</h5>
+                        <img src="./img/10.jpg" class="card-img-top" alt="">
+                        <p class="card-text  text-justify">Buscamos y nos movemoos siempre en base a las últimas tendencias avaladas por evidencia.</p>
+        
+                      </div>
+                    </div>                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed text-center" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Nuestra enfoque es la composición corporal
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body">
+
+                    <div class="card m-3">
+
+                      <div class="card-body">
+                        <h5 class="card-title">Reduce grasa</h5>
+                        <img src="./img/7.jpg" class="card-img-top" alt="./img/5.jpg">
+                        <p class="card-text">Te apollamos de forma integral mejorando una reducción de grasa y aumento de músculo sostenible.</p>
+        
+                      </div>
+                    </div>                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+          </div>
 
 
       </article>
@@ -162,7 +207,7 @@
 
 
       <footer class="footer">
-        <div class="d-flex justify-content-around mb-0 pb-0">
+        <div class="d-flex justify-content-around mb-0 pb-0   ">
           <!-- Iconos de redes sociales, estos seran una fila normal-->
           <div class="flex-row">
             <a href="#" class="fa fa-facebook"></a>

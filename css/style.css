@@ -1,8 +1,8 @@
 
 
-@media screen and (max-width: 1000px) {
-    .img{
-        width: 80%;
+@media screen and (max-width: 700px) {
+  #imgJumbo{
+        width: 0%;
     }
 } 
 
