@@ -6,8 +6,55 @@
     }
 } 
 
+@media screen and (min-width: 700px){
+  .form-control{
+    width: 69%;
+    
+  }
+  .btn{
+    width: 70%;
+    
+  }
+}
+
+
+
+.productos{
+  max-width: 30rem;
+}
+
+@media screen and (min-width: 700px) { 
+  .mobile{
+    display: none;
+  }
+  .desktop{
+    display: show;
+  }
+
+}
+
+@media screen and (max-width: 699px) { 
+  .mobile{
+    display: show;
+  }
+  .desktop{
+    display: none;
+  }
+
+}
+
+/* Para los productos y servicios*/
+.testimonial-card .card-up {
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+.aboutUs{
+  background-color:#eee;
+}
+
 .footer{
-    padding-top: 10%;
     background-color: black;
     color:white;
 }
