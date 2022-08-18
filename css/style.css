@@ -1,10 +1,15 @@
 
-
+#imgJumbo{
+  max-width: auto;
+}
 @media screen and (max-width: 700px) {
-  #imgJumbo{
-        width: 0%;
-    }
-} 
+  .uno{
+    order: 2;
+  }
+  .dos{
+    order: 1;
+  }
+}
 
 @media screen and (min-width: 700px){
   .form-control{
@@ -20,9 +25,9 @@
 
 
 .productos{
-  max-width: 30rem;
+  max-width: auto;
 }
-
+/* 
 @media screen and (min-width: 700px) { 
   .mobile{
     display: none;
@@ -41,7 +46,7 @@
     display: none;
   }
 
-}
+} */
 
 /* Para los productos y servicios*/
 .testimonial-card .card-up {
